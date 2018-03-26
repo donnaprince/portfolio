@@ -6784,7 +6784,11 @@ button.close {
   margin-top: 10px;
   margin-right:25px;
   margin-left:10px;
-  background-image: radial-gradient(black 50%, gray);
+  padding-left:20px;
+  padding-right:20px;
+  padding-top:15px;
+  padding-bottom:15px;
+  background-image: radial-gradient( black 96%,white);
   color:white;
   border-color: black;
   border-style:solid; 
@@ -6833,7 +6837,10 @@ button.close {
   width:90%;
   margin:1%;
   border-radius:15px;
-  padding-bottom: 30px;
+  padding-bottom: 10px;
+  padding-top:10px;
+  padding-right:20px;
+  padding-left:20px;
 }
 .contactcolor{
   background-color:black;
@@ -6917,11 +6924,13 @@ button.close {
  border:silver 5px solid;
   color:white;
   border-radius:15px;
-  background:linear-gradient(black 50%,#808080,#A9A9A9);
+  background:radial-gradient(black 70%, gray);
   padding:2px;
   margin:2px;
   font-family: 'Fauna One', serif;
   font-size: 25px;
+  padding-left:20px;
+  padding-right:20px;
 }
 .contactbox{
   top: 50px;
@@ -6946,4 +6955,13 @@ button.close {
   border-width:5px;
   min-width:760px;
   min-height: 1010px;
+}
+.project2below{
+  padding-top:30px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  background-size : cover;
+  background-color:white;
 }
