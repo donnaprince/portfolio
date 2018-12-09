@@ -4112,7 +4112,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .nav-pills > li.active > a,
 .nav-pills > li.active > a:hover,
 .nav-pills > li.active > a:focus {
-  color: blue;
+  color: #00b2b2;
 }
 .nav-stacked > li {
   float: none;
@@ -6779,6 +6779,10 @@ button.close {
 .text-project{
   font-family: 'Fauna One', serif;
   font-size: 25px;
+  border-color:black;
+  border-width: 5px;
+  border-style: solid;
+  background-image: radial-gradient(white 30%,silver) ;
   width: 95%;
   height: auto;
   margin-top: 10px;
@@ -6788,8 +6792,8 @@ button.close {
   padding-right:20px;
   padding-top:15px;
   padding-bottom:15px;
-  background-image: radial-gradient( black 96%,white);
-  color:white;
+
+  color:black;
   border-color: black;
   border-style:solid; 
   border-radius:10px;
@@ -6843,9 +6847,9 @@ button.close {
   padding-left:20px;
 }
 .contactcolor{
-  background-color:black;
+  background-color:rgb(220,220,220);
   font-family: 'Bungee Inline', cursive;
-  color:white;
+  color:black;
   font-size: 24px;
   text-align:center;
 }
@@ -6921,10 +6925,10 @@ button.close {
     filter: hue-rotate(180deg);
 }
 .text-about{
- border:silver 5px solid;
-  color:white;
-  border-radius:15px;
-  background:radial-gradient(black 70%, gray);
+  border:black;
+  color:black;
+  border-radius:25px;
+  background: radial-gradient(silver 50%,white);
   padding:2px;
   margin:2px;
   font-family: 'Fauna One', serif;

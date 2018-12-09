@@ -1,0 +1,94 @@
+.body{
+    margin: 0;
+    padding: 0;
+    text-type: Corsiva;
+}
+
+.wrapper{
+    width: 800px;
+    margin: 0 auto;
+}
+
+.wrapper h1{
+    text-align: left;
+    text-transform: uppercase;
+    margin-top: 40px;
+}
+
+.wrapper h2{
+    text-align: left;
+}
+
+.line{
+  height:25px;
+  min-width: 800px;
+  margin: 0 auto 10px;
+  line-height: 25px;
+  font-size: 14px;
+  color:black;
+  padding: 0 0 0 10px;
+  position: relative;
+}
+
+.line:before{
+  content: '';
+  width: 100%;
+  position: absolute;
+  left: 0;
+  height: 25px;
+  top: 0;
+  z-index: -2;
+  background: black;
+}
+
+.line:after{
+  content: '';
+  width: 100%;
+  position: absolute;
+  transition: 0.9s;
+  display: block;
+  animation: animate 1 1s;
+  top: 0;
+  left: 0;
+  height: 25px;
+
+  z-index: -1;
+  background: gray;
+}
+
+.line1:after{
+  max-width: 60%;
+}
+.line2:after{
+  max-width: 40%;
+}
+.line3:after{
+  max-width: 30%;
+}
+.line4:after{
+  max-width: 90%;
+}
+.line5:after{
+  max-width: 70%;
+}
+.line6:after{
+  max-width: 30%;
+}
+.line7:after{
+  max-width: 20%;
+}
+.line8:after{
+  max-width: 25%;
+}
+.line9:after{
+  max-width: 15%;
+}
+
+@keyframes animate {
+  0%{
+    width: 0;
+  }
+  100%{
+    width: 100%;
+  }
+}
