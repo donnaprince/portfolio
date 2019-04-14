@@ -5,11 +5,10 @@
     <link rel="stylesheet" type="text/css" href="bootstrap-3.3.7-dist/css/bootstrap.css"/>
     <link rel="stylesheeet" type="text/css" href="/HTML_Project/bootstrap-3.3.7-dist/css/mycss.css"/>
     <link href="https://fonts.googleapis.com/css?family=Bowlby+One+SC|Fauna+One|Italianno|Monoton" rel="stylesheet">
-
   </head>
   
 <body>
-  <header style="background:url('Images/bg.png')">
+  <header style="background:url('Images/about.png')">
     <div class="designtopbar">
     <div class="col-md-4">
         <h1>Donna Prince</h1>
@@ -22,11 +21,32 @@
            <li>
             <a href="Prince_AboutMe.html">About Me</a>
            </li>
-           <li  class="active">
+           <li class="active">
             <a href="Prince_Resume.html">Resume</a>
            </li>
-           <li> 
-             <a href="Prince_Project.html">Projects</a>
+           <li >
+            <div class="dropdown">
+            <button class="dropbtn" onclick="myFunction()"<a href="Prince_Project.html">Projects</a>
+            <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content" id="myDropdown">
+            <a href="Prince_Project.html" target="_self">CSE</a>
+            <a href="Prince_POE.html" target="_self">POE</a>
+            </div>
+            </div> 
+           </li>
+          <li>
+            <div class="dropdown">
+            <button class="dropbtn" onclick="myFunction()"<a href="Prince_WorkMain.html">Work Experience</a>
+            <i class="fa fa-caret-down"></i>
+            </button> 
+            <div class="dropdown-content" id="myDropdown">
+                <a href="Prince_Work.html" target="_self">Job</a>
+            <a href="Prince_Volunteering.html" target="_self">Volunteering</a>
+            <a href="Prince_Trips.html" target="_self">Field Trip(s)</a>
+           <a href="Prince_Speakers.html" target="_self">Influential Speaker(s)</a>
+            </div>
+            </div> 
            </li>
            <li> 
             <a href="Prince_Contact.html">Contact Me</a>
@@ -36,8 +56,8 @@
     </div>
   </header>
  
- <style>.container{padding:40px}</style>
-<div class="contactcolor contactform">
+  <style>.container{padding:40px}</style>
+  <div class="contactcolor contactform">
    <section class="main">
      <iframe src="Images/Resume-60.pdf" 
      width="760" height="1000" frameborder="0" marginheight="0" marginwidth="0" > Loading...

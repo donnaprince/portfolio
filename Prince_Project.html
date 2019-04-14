@@ -4,10 +4,11 @@
     <meta charset="utf-8"/>
     <link rel="stylesheet" type="text/css" href="bootstrap-3.3.7-dist/css/bootstrap.css"/>
     <link href="https://fonts.googleapis.com/css?family=Fauna+One|Italianno|Monoton|Sigmar+One" rel="stylesheet">
+
   </head>
     
 <body>
-  <header style="background:url('Images/bg.png')">
+  <header style="background:url('Images/about.png')">
     <div class="designtopbar">
     <div class="col-md-4">
         <h1>Donna Prince</h1>
@@ -23,9 +24,32 @@
            <li> 
             <a href="Prince_Resume.html">Resume</a>
            </li>
-           <li class="active"> 
-             <a href="Prince_Project.html">Projects</a>
+           <li class="active">
+            <div class="dropdown">
+            <button class="dropbtn" onclick="myFunction()"<a href="Prince_Project.html">Projects</a>
+            <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content" id="myDropdown">
+            <a href="Prince_Project.html" target="_self">CSE</a>
+            <a href="Prince_POE.html" target="_self">POE</a>
+            </div>
+            </div> 
            </li>
+           
+           <li>
+            <div class="dropdown">
+            <button class="dropbtn" onclick="myFunction()"<a href="Prince_WorkMain.html">Work Experience</a>
+            <i class="fa fa-caret-down"></i>
+            </button> 
+            <div class="dropdown-content" id="myDropdown">
+                <a href="Prince_Work.html" target="_self">Job</a>
+            <a href="Prince_Volunteering.html" target="_self">Volunteering</a>
+            <a href="Prince_Trips.html" target="_self">Field Trip(s)</a>
+           <a href="Prince_Speakers.html" target="_self">Influential Speaker(s)</a>
+            </div>
+            </div> 
+            </li>
+            
            <li> 
             <a href="Prince_Contact.html">Contact Me</a>
            </li>
@@ -34,10 +58,12 @@
     </div>
   </header>
   
+  
     <section class="main">
+         <h2 align="center"><u><b><i><font color="teal" face="Sigmar One"> Scratch: Coding a Game</font></u></b></i></h2>
         <div class="col-md-4 container">
+           
           <div class="text-header">
-            <p>Scratch: Coding a Game</p>
             <p>Brief Description of Project</p>
           </div>
           <div class="text-project">
@@ -61,37 +87,40 @@
           </div>
         </div>
     </section>
-          
-    <div class= "col-sm-5 container" >
-      <iframe allowtransparency="true" width="900" height="700"
-       src="https://scratch.mit.edu/projects/embed/186486820/?autostart=false" frameborder="0" allowfullscreen>
+         
+    <div class="col-md-8 container"> 
+    <div class= "text-project">  
+             <iframe allowtransparency="true" width="500" height="400"
+       src="https://scratch.mit.edu/projects/embed/186486820/?autostart=false" align="left" frameborder="0" img style="float: left; padding-right: 30px;" allowfullscreen>
       </iframe>
-    </div>
-    <div class= "text-project">   
-             <p>This assignment was the first project of the school year, using the platform from Scratch.
+     
+             <p class ="text-wrap">This assignment was the first project of the school year, using the platform from Scratch.
              The overall objective of the project was to accumulate knowledge about variable roles and recieve 
              an overview of engineering. The main goal of the project, was to be able to
              create a game or story using Scratch. Our group chose to create a game titled Maze-Tastic!,
              as we believed it connected with a larger audience. We did not use actual coding, 
-             but used coding blocks to develop our game. The <a href="https://docs.google.com/document/d/1C5OexaiGa-qG5wn8Cj7F3rL2OWOXbTcQ_PVtZHqPBKI/edit?ts=5a0bcca9"> rubric </a>
+             but used coding blocks to develop our game. The <a href="https://docs.google.com/document/d/1C5OexaiGa-qG5wn8Cj7F3rL2OWOXbTcQ_PVtZHqPBKI/edit?ts=5a0bcca9/" target="_blank">rubric</a>
              used for the project consisted majorly of how we used algorithms in the code. The project 
              was a collaboration of my peers Rishika T., Jacob S., and I. The brainstorming portion of 
              the project was done on a flowchart, to visualize the ideas. The documentation of our project
-             was done on a <a href="https://docs.google.com/document/d/1AyQ5QJjmsv_v0WHYTXoSSTxnXJIXrrNpt7iZzkq-niY/edit?ts=5a0bcb92"> Google Document</a> 
+             was done on a <a href="https://docs.google.com/document/d/1AyQ5QJjmsv_v0WHYTXoSSTxnXJIXrrNpt7iZzkq-niY/edit?ts=5a0bcb92" target="_blank">Google Document</a> 
              named Maze-Tastic!, which consisted of our daily progress and planning. An aspect, that
              I contributed to this project was the documentation, as well as the commenting what 
              each portion of the code does. One skill assimilated from the project, was how to document
              all the information accurately and in an orderly fashion. Another strength, which I was 
              able to garner was using Scratch in different ways to code the same function. In the project,
              our team was able to produce a very a refined game due to our teamwork. The game is embedded on the right along with the game  
-             <a href="https://docs.google.com/document/d/1Ns4EsD93v85PgXgZ7hcRUSzYbTaifL4CdPjPNpwz194/edit?ts=5a1e3213">rules. </a> 
+             <a href="https://docs.google.com/document/d/1Ns4EsD93v85PgXgZ7hcRUSzYbTaifL4CdPjPNpwz194/edit?ts=5a1e3213" target="_blank">rules.</a>    
              Enjoy going through all the levels of the game.</p>
+   
      </div>
+     </div>
+    <hr style="border: 4px solid blue;" />
     
      <section class="main">
+         <h2 align="center"><u><b><i><font color="teal" face="Sigmar One"> Python: Manipulating Images for a Client</font></u></b></i></h2>
         <div class="col-md-4 container">
           <div class="text-header">
-            <p>Python:Manipulating Images for a Client</p>
             <p>Brief Description of Project</p>
           </div>
           <div class="text-project">
@@ -116,20 +145,19 @@
         </div>
     </section>
     
-    <div class= "project2below" >
+    <div class="col-md-8 container"> 
+    <div class= "text-project"> 
     <iframe 
         src="https://docs.google.com/presentation/d/e/2PACX-1vQSGVvqU1fT1kgzt-2JddKbvUM_8OQm5cpt3CMgY9x_jfQJM3wr53Ka8RF9s3D9DXirheiNIkvVyY8S/embed?start=true&loop=true&delayms=3000" 
-        frameborder="0" width="900" height="700" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true">
+        frameborder="0" width="500" height="400" hspace="20" allowfullscreen="true"  align="left" img style="float: left; padding-right: 30px;">
     </iframe>
-        </div>
-          
-          <div class= "text-project">   
-            <p>
+    
+     <p ="text-wrap">
         The overall objective of the project was to utilize all our knowledge 
         regarding manipulating images and the language of python. The main 
         aspect of this project was to manipulate an image, of our choice for a 
-        variety of clients. The client that we chose was <a href=https://docs.google.com/document/d/1WlXBzQz64ZWUNK_3vkBotgEa_CeFR6V7B023UbCEmT0/edit?usp=sharing> client</a>  number one, which
-        was to manipulate the images of our choice, for a cause. The <a href=https://docs.google.com/document/d/1jwQUBg2WmhTIJFhsbtWyqfV0IQwKsJo0H7dcr6DjzUQ/edit?usp=sharing> rubric </a> for this
+        variety of clients. The client that we chose was <a href="https://docs.google.com/document/d/1WlXBzQz64ZWUNK_3vkBotgEa_CeFR6V7B023UbCEmT0/edit?usp=sharing" target="_blank">client</a> number one, which
+        was to manipulate the images of our choice, for a cause. The <a href="https://docs.google.com/document/d/1jwQUBg2WmhTIJFhsbtWyqfV0IQwKsJo0H7dcr6DjzUQ/edit?usp=sharing" target="_blank">rubric</a> for this
         project was similar to previous coding assignment focusing on the algorithms
         we used and teamwork. Using Python we where able to create functions, to allow
         the client choose the color of the border, as they wanted to be creatively active.
@@ -138,7 +166,7 @@
         of certain sections, added a border to the image,provided a short caption, 
         to capture our stance on this cause, and masked an image of bars on top of the image. This project was a collaboration along with 
         my peer Yoga Kanneboina.The documentation of our project was done on a 
-        <a href= https://docs.google.com/document/d/1JTXmA10Eu5D2_Go1qnFL9XFE2RH02QWZzwALk5N-XXU/edit?usp=sharing> Google Document</a>
+        <a href="https://docs.google.com/document/d/1JTXmA10Eu5D2_Go1qnFL9XFE2RH02QWZzwALk5N-XXU/edit?usp=sharing" target="_blank">Google Document</a> 
          named Behind Bars!, which consisted of our daily progress and brainstorming.
         An aspect, that I contributed to this project was the documentation, 
         commenting on code, and coding for different manipulations. One skill, 
@@ -150,74 +178,9 @@
         being manipulated.
         </p>
      </div>
+     
+      
         
-            <section class="main">
-        <div class="col-md-4 container">
-          <div class="text-header">
-            <p>Mechanical and Electrical Engineering: Running a Vehicle Using Solar and Hydrogen Cells</p>
-            <p>Brief Description of Project</p>
-          </div>
-          <div class="text-project">
-             <p>
-               <strong>
-                 Course:
-               </strong> Principles of Engineering(POE)<br>
-               <strong>
-                 Duration:
-               </strong>November 1, 2018 and November 16, 2018<br>
-               <strong>
-                 Objective:
-               </strong>Create a Vehicle that Runs on Solar and Hydrogen Cells<br>
-               <strong>
-                 Type of Project:
-               </strong>Group Project<br>
-               <strong>
-                 Project Title:
-               </strong> HydroLar
-             </p>
-          </div>
-        </div>
-        <style> .container{padding:40px}</style>
-
-     <div class="col-sm-5 container">
-	 <div class="container">
-     <iframe src="Images/SolarHydrogenProj.png" 
-      width="1200" height="650" frameborder="0" marginheight="50" marginwidth="50" >
-     </iframe>
-     </div>
-    </div> 
-    </section>
-          <div class= "text-project">   
-            <p>
-      This project was the last project of the first semester, which made us utilize, 
-      the various skills, we gained throughout the first months, regarding mechanical 
-      and electrical engineering. The main objective of this project was to ensure a 
-      vehicle given certain constraints, can run on, one hydrogen cell, and/or two 
-      hydrogen cells, or one solar cell, and/or two solar cells, with the greatest 
-      speed and efficiency. The client for the vehicle was the renowned car company 
-      Tesla, who needed assistance, in choosing a new clean, power supply, that will 
-      benefit the company. The documentation for this project was done on a 
-      <a href="https://docs.google.com/document/d/1fOxAtZDLFC72dpDzVWvTN3diqJEmyyw5Cur1ZKtSmpQ/edit?usp=sharing">Google Document</a>
-      , which consisted, the Design Brief, Decision Matrix, Annotated Pictures, 
-      Modifications, Calculation/Measurements and Recommendation to the company, Tesla. 
-      This project, was a collaboration between my peers, Taneesha Negi, Sameer Paila, 
-      and Shreejith Ravishankar.  The <a href="https://docs.google.com/document/d/1VoS10zwAVfH08fkNRYXdbjZ8DlVREHVkYLtZcd7hT14/edit?usp=sharing"
->rubric</a>, used for this project mainly focused on 
-      documentation, individual deliverables, teamwork, and the solution performance
-      of the vehicle. In order to plan out, the necessary tasks that need to complete
-      each day, we used <a href="https://docs.google.com/spreadsheets/d/1UiNAe4IgjAFYaT7d-gyvkZKIPbd6s6IcREkH6DnjdgU/edit?usp=sharing">Google Sheets</a>, to create a Gantt Chart. An aspect, that I 
-      contributed to this project in regards to the documentation, was writing the
-      description of all the modifications we made and doing all the calculations 
-      such as speed, electrical power, mechanical power and efficiency for the various 
-      combinations of power sources. In terms of building the vehicle, I assisted tightening the various cells, to the vehicle, and did the breadboarding in order for the vehicle to run. One skill acquired from the project was how to
-      be persistent, as our team had difficulties, creating a car that met all the 
-      constraints, resulting us in creating multiple car prototypes. Another strength, 
-      which I was able to garner was learning the science behing powering hydrogen cells, using a power station, and using a UV lamp for the solar cells to run. Through this project, our team was able to produce a 
-      well-developed vehicle and recommended the solar source powered in parallel to Tesla, as it was the fastest.
-      Above, are few photos that reveal the different
-      configurations, the vehicle was able to run on. 
-        </p>
-     </div>
      
      </div>
     <footer>
