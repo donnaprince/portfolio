@@ -6982,8 +6982,8 @@ button.close {
     background-repeat: no-repeat;
 }
 .designhome{
-  background-image: url('https://preview.c9users.io/donnaprince/cse5-prince-d/HTML_Project/Images/about1.png'); /* The image used */
-  background-color: #cccccc; /* Used if the image is unavailable */
+  /*background-image: url('../../Images/about.png'); /* The image used */
+  background-color: black; /* Used if the image is unavailable */
   min-height: 90%; /* You must set a specified height */
   background-position: center; /* Center the image */
   background-size: cover; /* Resize the background image to cover the entire container */
