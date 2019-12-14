@@ -6792,6 +6792,7 @@ button.close {
   border-radius:10px;
   display: inline-block;
   position:relative;
+  object-fit: cover;
   -webkit-transition: all .2s ease-in-out;
        -o-transition: all .2s ease-in-out;
           transition: all .2s ease-in-out;
