@@ -7122,6 +7122,8 @@ button.close {
   flex-wrap: wrap;
   justify-content: center;
   background-size: cover;
+  width: 90%;
+  height: 90%;
   background-image: url(https://img.freepik.com/free-photo/old-grunge-dark-textured-wooden-background-surface-old-brown-wood-texture_7182-333.jpg?size=626&ext=jpg) 
 }
 .img
