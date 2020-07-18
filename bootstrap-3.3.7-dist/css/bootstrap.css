@@ -7123,7 +7123,7 @@ button.close {
   justify-content: center;
   background-image: url(https://img.freepik.com/free-photo/old-grunge-dark-textured-wooden-background-surface-old-brown-wood-texture_7182-333.jpg?size=626&ext=jpg) 
 }
-img1
+.img1
 {width: 300px;
 height: 300px;
 margin-left: 3%;
@@ -7136,7 +7136,7 @@ padding: 0.1px;
 }
 
 
-img1:hover {
+.img1:hover {
   border: solid #ffc719;
   padding: 5px;
 }
