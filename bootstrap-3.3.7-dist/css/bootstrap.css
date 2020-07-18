@@ -7142,6 +7142,6 @@ img:hover1 {
 }
 
 .bgcolor
-{background-color: #bf033b;
-background-image: linear-gradient(315deg, #bf033b 0%, #ffc719 74%);
+{background-color: black;
+background-image: linear-gradient(315deg, black 0%, #ffc719 74%);
 }
