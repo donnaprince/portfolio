@@ -7136,7 +7136,12 @@ border: solid white;
 padding: 0.1px;
 }
 
-img:hover {
+img:hover1 {
   border: solid #ffc719;
   padding: 5px;
+}
+
+.bgcolor
+{background-color: #bf033b;
+background-image: linear-gradient(315deg, #bf033b 0%, #ffc719 74%);
 }
